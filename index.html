@@ -3,152 +3,231 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="A quiet corner for stories, poems, and serialized fiction." />
-  <title>Ink & Ember — Stories by You</title>
+  <meta name="description" content="Blackthorn Mystica — original fiction, creative writing, and stories by Victor Blackthorn." />
+  <meta name="theme-color" content="#0c1537" />
+  <title>Blackthorn Mystica — Stories by Victor Blackthorn</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="site-shell">
-    <header class="site-header">
-      <a class="brand" href="#home" aria-label="Ink & Ember home">
-        <span class="brand-mark">I</span>
-        <span>
-          <strong>Ink & Ember</strong>
-          <small>stories that stay</small>
-        </span>
+    <header class="site-header" id="home">
+      <a class="brand" href="#home" aria-label="Blackthorn Mystica home">
+        <img src="assets/blackthorn-mystica-logo.png" alt="Blackthorn Mystica Publishing logo" />
       </a>
 
       <nav class="nav" aria-label="Primary navigation">
+        <a class="active" href="#home">Home</a>
         <a href="#stories">Stories</a>
-        <a href="#collections">Collections</a>
+        <a href="#submissions">Submissions</a>
         <a href="#about">About</a>
       </nav>
 
+      <a class="header-cta" href="#submissions">Submit Your Writing</a>
       <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
     </header>
 
     <main>
-      <section class="hero" id="home">
+      <section class="hero section-wide">
         <div class="hero-copy">
-          <p class="eyebrow">A personal story archive</p>
-          <h1>Some stories are<br><em>meant to linger.</em></h1>
+          <p class="eyebrow">BLACKTHORN MYSTICA · PUBLISHING</p>
+          <h1>Where stories<br><em>keep their secrets.</em></h1>
+          <p class="hero-tagline">Stories, fiction, and creative writing from <strong>Victor Blackthorn</strong>.</p>
           <p class="hero-text">
-            Welcome to a small corner of the internet for fiction, unfinished thoughts,
-            quiet romances, strange cities, and the stories that refuse to leave.
+            Step into a collection of original fiction where quiet feelings, dark secrets,
+            romance, mystery, and imagination are given a place to speak.
           </p>
           <div class="hero-actions">
-            <a class="button button-dark" href="#stories">Enter the library</a>
-            <a class="text-link" href="#about">Meet the author <span>↗</span></a>
+            <a class="button button-gold" href="#featured">Read <em>Unspoken Hearts</em></a>
+            <a class="button button-outline" href="#submissions">Submit Your Writing</a>
+          </div>
+          <div class="hero-note">
+            <span class="note-line"></span>
+            <span>Original fiction · Reader submissions · New stories ahead</span>
           </div>
         </div>
 
-        <div class="hero-art" aria-hidden="true">
-          <div class="orb orb-a"></div>
-          <div class="orb orb-b"></div>
-          <div class="paper">
-            <span class="paper-line"></span>
-            <span class="paper-line short"></span>
-            <span class="paper-line"></span>
-            <span class="paper-line medium"></span>
-            <span class="paper-line"></span>
+        <div class="hero-cover-wrap" aria-label="Unspoken Hearts cover">
+          <div class="cover-glow"></div>
+          <div class="cover-frame">
+            <img src="assets/unspoken-hearts-cover.png" alt="Cover artwork for Unspoken Hearts by Victor Blackthorn" />
           </div>
-          <div class="ink-stamp">READ<br>SLOWLY</div>
+          <div class="cover-caption">
+            <span class="chapter-label">FEATURED STORY</span>
+            <strong>Unspoken Hearts</strong>
+            <span>Season 1 · The First Glance</span>
+          </div>
         </div>
       </section>
 
-      <section class="section intro-strip">
-        <div class="strip-stat">
-          <strong id="storyCount">04</strong>
-          <span>stories in the library</span>
+      <section class="intro-strip section-wide">
+        <div>
+          <span class="strip-label">THE HOUSE OF STORIES</span>
+          <strong>Romance · Mystery · Drama · Fantasy · More</strong>
         </div>
-        <div class="strip-quote">“Every story begins twice — once in the mind, and once on the page.”</div>
+        <p>Read slowly. Stay curious. Let the shadows speak.</p>
+      </section>
+
+      <section class="section" id="featured">
+        <div class="section-kicker">01 · Featured Story</div>
+        <div class="featured-grid">
+          <div class="featured-image">
+            <img src="assets/unspoken-hearts-cover.png" alt="Unspoken Hearts cover" />
+          </div>
+          <div class="featured-copy-block">
+            <p class="eyebrow">Now on Blackthorn Mystica</p>
+            <h2>Unspoken Hearts</h2>
+            <div class="story-meta"><span>Romance</span><span>·</span><span>Season 1: The First Glance</span></div>
+            <p class="lead">
+              A story of love, longing, and the whispers of a heart too afraid to speak.
+              Aarav Sen has loved Kavya Sharma for years, quietly watching from the edge of
+              her world — while someone else quietly loves him.
+            </p>
+            <p class="small-copy">
+              The opening includes the Prologue and Episode 1: <em>The Morning Bell</em>.
+              The full story reading page will be added next.
+            </p>
+            <a class="button button-navy" href="#stories">Explore the story</a>
+          </div>
+        </div>
       </section>
 
       <section class="section" id="stories">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">The library</p>
-            <h2>Stories to disappear into.</h2>
+            <div class="section-kicker">02 · Latest Writings</div>
+            <h2>Begin with one story.<br><em>Stay for the next.</em></h2>
           </div>
-          <div class="filters" role="group" aria-label="Story filters">
-            <button class="filter active" data-filter="All">All</button>
-            <button class="filter" data-filter="Romance">Romance</button>
-            <button class="filter" data-filter="Mystery">Mystery</button>
-            <button class="filter" data-filter="Drama">Drama</button>
-            <button class="filter" data-filter="Fantasy">Fantasy</button>
-          </div>
+          <p class="section-intro">The library begins with a single published work. More stories will appear here as the collection grows.</p>
         </div>
 
-        <div class="toolbar">
-          <label class="search-box">
-            <span>⌕</span>
-            <input id="searchInput" type="search" placeholder="Search stories, genres, or moods…" />
-          </label>
-          <span class="result-count" id="resultCount">4 stories</span>
-        </div>
-
-        <div class="story-grid" id="storyGrid"></div>
-        <p class="empty-state" id="emptyState" hidden>No stories match that search.</p>
-      </section>
-
-      <section class="section featured" id="collections">
-        <div class="featured-card">
-          <div class="featured-copy">
-            <p class="eyebrow">Featured story</p>
-            <h2>Borrowed Time</h2>
-            <p class="featured-meta">Long-form fiction · 18 min read</p>
-            <p class="featured-description">
-              A quiet story about timing, attachment, and what happens when two people
-              meet at exactly the wrong moment.
+        <article class="story-card">
+          <div class="story-card-image">
+            <img src="assets/unspoken-hearts-cover.png" alt="Unspoken Hearts cover" />
+            <span class="new-badge">NEW</span>
+          </div>
+          <div class="story-card-content">
+            <div class="story-card-top">
+              <span class="genre-pill">Romance · Drama</span>
+              <span class="story-index">01</span>
+            </div>
+            <h3>Unspoken Hearts</h3>
+            <p class="story-card-summary">
+              Aarav has loved Kavya for as long as he can remember. But while his feelings remain
+              unspoken, another heart is quietly turned toward him.
             </p>
-            <button class="button button-light" data-read="Borrowed Time">Read the story</button>
+            <div class="story-card-bottom">
+              <span>Victor Blackthorn</span>
+              <a href="#featured" class="read-link">View story <span>↗</span></a>
+            </div>
           </div>
-          <div class="featured-visual">
-            <span class="chapter-pill">01 / 04</span>
-            <div class="moon"></div>
-            <div class="window"></div>
-            <div class="quote-mark">“</div>
+        </article>
+      </section>
+
+      <section class="reader-corner section">
+        <div class="section-kicker">03 · Reader's Corner</div>
+        <div class="corner-grid">
+          <a class="corner-card" href="#submissions">
+            <span class="corner-icon">✦</span>
+            <h3>Leave Feedback</h3>
+            <p>Tell the author what stayed with you after the final page.</p>
+            <span class="corner-link">Share your thoughts ↗</span>
+          </a>
+          <a class="corner-card" href="mailto:victorblackthorn.books@gmail.com?subject=Story Recommendation — Blackthorn Mystica">
+            <span class="corner-icon">◌</span>
+            <h3>Recommend a Story</h3>
+            <p>Have a story, theme, or kind of fiction you'd like to see here?</p>
+            <span class="corner-link">Send a recommendation ↗</span>
+          </a>
+          <a class="corner-card featured-corner" href="#submissions">
+            <span class="corner-icon">✎</span>
+            <h3>Submit Your Writing</h3>
+            <p>Share your original work for consideration on the Blackthorn Mystica shelf.</p>
+            <span class="corner-link">Read the guidelines ↗</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="submission-section section" id="submissions">
+        <div class="submission-heading">
+          <div>
+            <div class="section-kicker">04 · Open Submissions</div>
+            <h2>Have a story of your own?</h2>
+          </div>
+          <p>Blackthorn Mystica welcomes original writing from new and emerging writers. Please read the guidelines before sending a manuscript.</p>
+        </div>
+
+        <div class="submission-panel">
+          <div class="guidelines">
+            <h3>Submission Guidelines</h3>
+            <p class="guidelines-intro">Please include the following information in your email so your work can be reviewed properly.</p>
+            <ol>
+              <li><strong>Author name or pen name</strong> — the name you want displayed if your work is selected.</li>
+              <li><strong>Story title</strong> — the complete title of your submission.</li>
+              <li><strong>Story category / genre</strong> — for example Romance, Mystery, Drama, Fantasy, Thriller, Poetry, or Short Story.</li>
+              <li><strong>Short summary</strong> — a concise description of the story and its central premise.</li>
+              <li><strong>Language</strong> — specify whether the manuscript is in English, Bengali, or another language.</li>
+              <li><strong>Approximate word count</strong> — useful for short stories and longer works.</li>
+              <li><strong>Manuscript</strong> — attach the complete work as a <strong>.docx</strong> or <strong>.pdf</strong> file.</li>
+              <li><strong>Short author note</strong> — 2–4 lines about yourself or your writing, if you wish.</li>
+              <li><strong>Originality declaration</strong> — confirm that you have the right to submit the work and that it is your original writing.</li>
+              <li><strong>Content note</strong> — mention any major themes or sensitive content readers should be aware of.</li>
+            </ol>
+            <p class="submission-note">Submissions are sent for editorial consideration. Sending a manuscript does not guarantee publication.</p>
+          </div>
+          <div class="submission-action">
+            <div class="mail-card">
+              <span class="mail-label">SUBMIT BY EMAIL</span>
+              <strong>victorblackthorn.books@gmail.com</strong>
+              <p>Use the button below to open your email app with a ready-made subject line and checklist.</p>
+              <a class="button button-gold wide" href="mailto:victorblackthorn.books@gmail.com?subject=Story Submission — Blackthorn Mystica&body=Author / Pen Name:%0D%0AStory Title:%0D%0AGenre / Category:%0D%0ALanguage:%0D%0AApprox. Word Count:%0D%0AShort Summary:%0D%0AShort Author Note:%0D%0AOriginality Declaration: I confirm that this is my original work and that I have the right to submit it.%0D%0AContent Note (if applicable):%0D%0A%0D%0AAttachment: Please attach your complete manuscript as a DOCX or PDF file.">Open Email & Submit</a>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="section author" id="about">
-        <div class="author-avatar">S</div>
-        <div>
-          <p class="eyebrow">About the author</p>
-          <h2>Stories, one page at a time.</h2>
-          <p>
-            This space is built as a simple home for original fiction. Replace this
-            paragraph with your own biography, writing philosophy, contact details,
-            or links to your other work.
-          </p>
-          <div class="author-links">
-            <a href="#" aria-label="Instagram">Instagram</a>
-            <a href="#" aria-label="Goodreads">Goodreads</a>
-            <a href="#" aria-label="Email">Email</a>
+      <section class="community section">
+        <div class="community-card">
+          <div>
+            <div class="section-kicker">05 · Community Shelf</div>
+            <h2>Coming soon: stories<br><em>from other voices.</em></h2>
           </div>
+          <div>
+            <p>
+              Selected reader submissions may be featured here in the future, giving new writers
+              a place to share their work with the Blackthorn Mystica audience.
+            </p>
+            <a class="text-link-dark" href="#submissions">Submit for consideration <span>↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section section" id="about">
+        <div class="about-mark">B</div>
+        <div>
+          <div class="section-kicker">06 · About the Author</div>
+          <h2>Stories published under<br><em>Victor Blackthorn.</em></h2>
+          <p>
+            Blackthorn Mystica is the home for original fiction and future community writing,
+            created as a place where stories can be read slowly and remembered for longer.
+          </p>
+          <a class="text-link-dark" href="mailto:victorblackthorn.books@gmail.com">Contact the author <span>↗</span></a>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <span>© 2026 Ink & Ember</span>
-      <span>Made for stories worth remembering.</span>
+    <footer class="footer section-wide">
+      <div class="footer-brand">
+        <img src="assets/blackthorn-mystica-logo.png" alt="Blackthorn Mystica" />
+      </div>
+      <div class="footer-copy">
+        <span>© <span id="year"></span> Blackthorn Mystica</span>
+        <span>Where dark secrets awaken, and shadows tell tales.</span>
+      </div>
+      <a href="mailto:victorblackthorn.books@gmail.com">Contact ↗</a>
     </footer>
-  </div>
-
-  <div class="reader-modal" id="readerModal" aria-hidden="true">
-    <div class="modal-backdrop" data-close></div>
-    <article class="reader">
-      <button class="close-reader" data-close aria-label="Close reader">×</button>
-      <p class="eyebrow" id="readerGenre"></p>
-      <h2 id="readerTitle"></h2>
-      <p class="reader-meta" id="readerMeta"></p>
-      <div class="reader-body" id="readerBody"></div>
-    </article>
   </div>
 
   <script src="script.js"></script>
