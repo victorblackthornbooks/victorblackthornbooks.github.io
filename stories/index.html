@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Blackthorn Mystica library — published stories and fiction by Victor Blackthorn.">
+  <meta name="theme-color" content="#0b1434">
+  <title>Stories — Blackthorn Mystica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="library-page">
+  <header class="site-header">
+    <a class="brand" href="../index.html"><img src="../blackthorn-mystica-logo.png" alt="Blackthorn Mystica Publishing"></a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="../index.html">Home</a>
+      <a class="active" href="index.html">Stories</a>
+      <a href="../index.html#submissions">Submissions</a>
+      <a href="../index.html#about">About</a>
+    </nav>
+    <a class="header-cta" href="../index.html#submissions">Submit Your Writing</a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="section library-hero">
+      <div class="section-kicker">BLACKTHORN MYSTICA · LIBRARY</div>
+      <div class="library-title-row">
+        <div><h1>My Stories</h1><p>A growing collection of original fiction by Victor Blackthorn.</p></div>
+        <div class="library-count"><strong>01</strong><span>published work</span></div>
+      </div>
+    </section>
+
+    <section class="section library-body">
+      <div class="library-toolbar">
+        <div class="filters" role="group" aria-label="Filter stories">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="romance">Romance</button>
+          <button class="filter" data-filter="drama">Drama</button>
+          <button class="filter" data-filter="thriller">Thriller</button>
+          <button class="filter" data-filter="mystery">Mystery</button>
+          <button class="filter" data-filter="fantasy">Fantasy</button>
+          <button class="filter" data-filter="short-story">Short Stories</button>
+          <button class="filter" data-filter="novel">Novels</button>
+          <button class="filter" data-filter="completed">Completed</button>
+          <button class="filter" data-filter="ongoing">Ongoing</button>
+        </div>
+        <label class="search-box"><span>⌕</span><input id="storySearch" type="search" placeholder="Search stories…"></label>
+      </div>
+
+      <div class="library-grid" id="libraryGrid">
+        <article class="library-card" data-tags="romance drama novel ongoing" data-search="unspoken hearts romance drama victor blackthorn">
+          <div class="library-card-cover"><img src="../unspoken-hearts-cover.png" alt="Unspoken Hearts cover"><span class="status-badge">ONGOING</span></div>
+          <div class="library-card-content">
+            <div class="card-topline"><span class="genre-pill">Romance · Drama</span><span class="story-number">01</span></div>
+            <h2>Unspoken Hearts</h2>
+            <p class="card-summary">Love can live quietly for years. For Aarav Sen, it has always been a silent ache, while another heart quietly turns toward him.</p>
+            <div class="card-meta"><span>Victor Blackthorn</span><span>·</span><span>≈ 5 min</span><span>·</span><span>Oct 2026</span></div>
+            <a class="button button-navy" href="unspoken-hearts.html">Read Story →</a>
+          </div>
+        </article>
+      </div>
+      <p class="no-results" id="noResults" hidden>No stories match this filter or search.</p>
+    </section>
+  </main>
+
+  <footer class="footer section-wide"><div class="footer-brand"><img src="../blackthorn-mystica-logo.png" alt="Blackthorn Mystica"></div><div class="footer-copy"><span>© 2026 Blackthorn Mystica</span><span>A library that will grow with every story.</span></div><a href="mailto:victorblackthorn.books@gmail.com">Contact ↗</a></footer>
+  <script src="../script.js"></script>
+  <script src="library.js"></script>
+</body>
+</html>
